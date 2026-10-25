@@ -19,9 +19,9 @@ android {
 
     signingConfigs {
         android {
-            storeFile file('android.jks')
+            storeFile file('platform.jks')
             storePassword 'android'
-            keyAlias 'android'
+            keyAlias 'platform'
             keyPassword 'android'
         }
     }
